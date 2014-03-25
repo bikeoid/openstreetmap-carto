@@ -218,6 +218,7 @@
   }
 
   [feature = 'landuse_industrial'],
+  [feature = 'landuse_port'],
   [feature = 'landuse_railway'] {
     [zoom >= 10] {
       polygon-fill: @industrial;
